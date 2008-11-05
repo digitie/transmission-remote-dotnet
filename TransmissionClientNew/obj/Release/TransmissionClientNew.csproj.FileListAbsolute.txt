@@ -1,0 +1,11 @@
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.Form1.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.LocalSettingsDialog.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.Properties.Resources.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.RemoteSettingsDialog.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.TorrentInfoDialog.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\TransmissionClientNew.csproj.GenerateResource.Cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\bin\Release\Transmission Remote.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\bin\Release\Transmission Remote.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\Transmission Remote.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\Transmission Remote.pdb
