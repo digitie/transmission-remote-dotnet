@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* This class should prevent ListView's flickering. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

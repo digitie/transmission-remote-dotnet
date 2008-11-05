@@ -9,3 +9,5 @@ C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\Transm
 C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\bin\Release\Transmission Remote.pdb
 C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\Transmission Remote.exe
 C:\Users\Alan\Documents\Visual Studio 2008\Projects\TransmissionClientNew\TransmissionClientNew\obj\Release\Transmission Remote.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\transmission-remote\TransmissionClientNew\obj\Release\Transmission Remote.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\transmission-remote\TransmissionClientNew\obj\Release\Transmission Remote.pdb

@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* This factory class is responsible for dispatching JSON requests and
+ * torrent uploads, and also creating an object using the command design
+ * pattern which contains the logic for updating the UI. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
