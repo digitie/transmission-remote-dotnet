@@ -91,17 +91,29 @@ namespace TransmissionClientNew
 
         private void RemoveButton_Click(object sender, EventArgs e)
         {
-            RemoveTorrents();
+            RemoveTorrentsPrompt();
+        }
+
+        private void RemoveTorrentsPrompt()
+        {
+            if (TorrentListView.SelectedItems.Count == 1)
+            {
+                if (MessageBox.Show("Do you want to remove " + TorrentListView.SelectedItems[0].Text + "?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    RemoveTorrents();
+                }
+            }
+            else if (TorrentListView.SelectedItems.Count > 1
+                && MessageBox.Show("You have selected " + TorrentListView.SelectedItems.Count + " torrents for removal. Are you sure?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                RemoveTorrents();
+            }
         }
 
         private void RemoveTorrents()
         {
-            if (TorrentListView.SelectedItems.Count > 0
-                && MessageBox.Show("You have selected " + TorrentListView.SelectedItems.Count + " torrent(s) for removal. Are you sure?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                CreateActionWorker().RunWorkerAsync(Requests.Generic("torrent-remove", BuildIdArray()));
-                StripeListView();
-            }
+            CreateActionWorker().RunWorkerAsync(Requests.Generic("torrent-remove", BuildIdArray()));
+            StripeListView();
         }
 
         private void DetailsButton_Click(object sender, EventArgs e)
@@ -290,7 +302,7 @@ namespace TransmissionClientNew
         {
             CreateActionWorker().RunWorkerAsync(Requests.Generic("torrent-stop", null));
         }
-
+         
         private void listView1_ColumnClick(object sender, ColumnClickEventArgs e)
         {
             if (e.Column == lvwColumnSorter.SortColumn)
@@ -310,7 +322,7 @@ namespace TransmissionClientNew
         {
             if (e.KeyCode == Keys.Delete)
             {
-                RemoveTorrents();
+                RemoveTorrentsPrompt();
             }
             else if (e.KeyCode == Keys.Enter)
             {
