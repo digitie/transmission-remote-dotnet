@@ -8,11 +8,11 @@ using Jayrock.Json;
 
 namespace TransmissionClientNew.Comparers
 {
-    public class ListViewTorrentNumberComparer : IComparer
+    public class ListViewTorrentInt64Comparer : IComparer
     {
         string jsonKey;
 
-        public ListViewTorrentNumberComparer(string jsonKey)
+        public ListViewTorrentInt64Comparer(string jsonKey)
         {
             this.jsonKey = jsonKey;
         }

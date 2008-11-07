@@ -49,34 +49,34 @@ namespace TransmissionClientNew
                 switch (ColumnToSort)
                 {
                     case 2:
-                        ObjectCompare = new ListViewTorrentNumberComparer("totalSize");
+                        ObjectCompare = new ListViewTorrentInt64Comparer("totalSize");
                         break;
                     case 3:
                         ObjectCompare = new ListViewTorrentProgressComparer();
                         break;
                     case 4:
-                        ObjectCompare = new ListViewTorrentNumberComparer("rateDownload");
+                        ObjectCompare = new ListViewTorrentInt32Comparer("rateDownload");
                         break;
                     case 5:
-                        ObjectCompare = new ListViewTorrentNumberComparer("rateUpload");
+                        ObjectCompare = new ListViewTorrentInt32Comparer("rateUpload");
                         break;
                     case 6:
-                        ObjectCompare = new ListViewTorrentNumberComparer("eta");
+                        ObjectCompare = new ListViewTorrentInt64Comparer("eta");
                         break;
                     case 7:
-                        ObjectCompare = new ListViewTorrentNumberComparer("haveValid");
+                        ObjectCompare = new ListViewTorrentInt64Comparer("haveValid");
                         break;
                     case 8:
-                        ObjectCompare = new ListViewTorrentNumberComparer("uploadedEver");
+                        ObjectCompare = new ListViewTorrentInt64Comparer("uploadedEver");
                         break;
                     case 9:
                         ObjectCompare = new ListViewTorrentRatioComparer();
                         break;
                     case 10:
-                        ObjectCompare = new ListViewTorrentNumberComparer("seeders");
+                        ObjectCompare = new ListViewTorrentInt32Comparer("seeders");
                         break;
                     case 11:
-                        ObjectCompare = new ListViewTorrentNumberComparer("leechers");
+                        ObjectCompare = new ListViewTorrentInt32Comparer("leechers");
                         break;
                     default:
                         ObjectCompare = new ListViewTextInsensitiveComparer(ColumnToSort);
