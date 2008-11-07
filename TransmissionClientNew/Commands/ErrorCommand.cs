@@ -42,7 +42,7 @@ namespace TransmissionClientNew.Commmands
                 {
                     Program.Connected = false;
                     form.toolStripStatusLabel1.Text = "Disconnected. Exceeded maximum number of failed requests.";
-                    MessageBox.Show(this.body, this.title, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this.body.Length > 300 ? this.body.Substring(0, 300) : this.body, this.title, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
