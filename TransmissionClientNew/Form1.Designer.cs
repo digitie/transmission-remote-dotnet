@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
-            //this.TorrentListView = new System.Windows.Forms.ListView();
             this.TorrentListView = new TransmissionClientNew.ListViewNF();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
@@ -67,6 +66,7 @@
             this.NotifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.FilesWorker = new System.ComponentModel.BackgroundWorker();
             this.FilesTimer = new System.Windows.Forms.Timer(this.components);
+            this.columnHeader14 = new System.Windows.Forms.ColumnHeader();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -112,7 +112,8 @@
             this.columnHeader10,
             this.columnHeader11,
             this.columnHeader12,
-            this.columnHeader13});
+            this.columnHeader13,
+            this.columnHeader14});
             this.TorrentListView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TorrentListView.Enabled = false;
             this.TorrentListView.FullRowSelect = true;
@@ -365,6 +366,11 @@
             this.FilesTimer.Interval = 3000;
             this.FilesTimer.Tick += new System.EventHandler(this.FilesTimer_Tick);
             // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Added";
+            this.columnHeader14.Width = 120;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -432,6 +438,7 @@
         public System.Windows.Forms.ToolStripButton ConnectButton;
         private System.ComponentModel.BackgroundWorker FilesWorker;
         public System.Windows.Forms.Timer FilesTimer;
+        private System.Windows.Forms.ColumnHeader columnHeader14;
     }
 }
 

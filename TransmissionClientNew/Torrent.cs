@@ -53,6 +53,7 @@ namespace TransmissionClientNew
             item.SubItems.Add(this.Seeders + " (" + this.PeersSendingToUs + ")");
             item.SubItems.Add(this.Leechers + " (" + this.PeersGettingFromUs + ")");
             item.SubItems.Add(((string)info["announceURL"]));
+            item.SubItems.Add(this.Added);
             Program.torrentIndex[this.Id] = this;
             Add();
         }
@@ -125,7 +126,6 @@ namespace TransmissionClientNew
                 item.SubItems[9].Text = this.RatioString;
                 item.SubItems[10].Text = this.Seeders + " (" + this.PeersSendingToUs + ")";
                 item.SubItems[11].Text = this.Leechers + " (" + this.PeersGettingFromUs + ")";
-                item.SubItems[12].Text = ((string)info["announceURL"]);
                 this.updateSerial = Program.updateSerial;
                 if (Program.infoDialogs.ContainsKey(this.Id))
                 {

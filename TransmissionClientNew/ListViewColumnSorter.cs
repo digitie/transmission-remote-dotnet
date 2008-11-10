@@ -78,6 +78,9 @@ namespace TransmissionClientNew
                     case 11:
                         ObjectCompare = new ListViewTorrentInt32Comparer("leechers");
                         break;
+                    case 13:
+                        ObjectCompare = new ListViewTorrentInt64Comparer("addedDate");
+                        break;
                     default:
                         ObjectCompare = new ListViewTextInsensitiveComparer(ColumnToSort);
                         break;
