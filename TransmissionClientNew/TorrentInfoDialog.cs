@@ -125,6 +125,7 @@ namespace TransmissionClientNew
         private void RemoveButton_Click(object sender, EventArgs e)
         {
             Program.form.CreateActionWorker().RunWorkerAsync(Requests.Generic("torrent-remove", GetId()));
+            this.Close();
         }
 
         private void SetHighPriorityHandler(object sender, EventArgs e)
