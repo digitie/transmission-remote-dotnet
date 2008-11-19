@@ -44,6 +44,7 @@ namespace TransmissionClientNew.Commmands
             JsonArray files = (JsonArray)torrent["files"];
             JsonArray priorities = (JsonArray)torrent["priorities"];
             JsonArray wanted = (JsonArray)torrent["wanted"];
+            form.FilesListView.SuspendLayout();
             for (int i = 0; i < files.Length; i++)
             {
                 JsonObject file = (JsonObject)files[i];
@@ -73,6 +74,7 @@ namespace TransmissionClientNew.Commmands
                     item.SubItems[3].Text = completeStr;
                 }
             }
+            form.FilesListView.ResumeLayout();
         }
 
         private static ListViewItem GetFileItem(ListView list, string name)

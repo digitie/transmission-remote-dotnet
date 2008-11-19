@@ -449,5 +449,31 @@ namespace TransmissionClientNew
         {
             Toolbox.SelectAll(TorrentListView);
         }
+
+        private delegate void SuspendListViewDelegate();
+        public void SuspendListView()
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new SuspendListViewDelegate(this.SuspendListView));
+            }
+            else
+            {
+                TorrentListView.SuspendLayout();
+            }
+        }
+
+        private delegate void ResumeListViewDelegate();
+        public void ResumeListView()
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new ResumeListViewDelegate(this.ResumeListView));
+            }
+            else
+            {
+                TorrentListView.ResumeLayout();
+            }
+        }
     }
 }

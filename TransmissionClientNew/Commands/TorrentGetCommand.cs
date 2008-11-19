@@ -35,6 +35,7 @@ namespace TransmissionClientNew.Commmands
             JsonObject arguments = (JsonObject)response["arguments"];
             JsonArray torrents = (JsonArray)arguments["torrents"];
             Program.updateSerial++;
+            Program.form.SuspendListView();
             foreach (JsonObject torrent in torrents)
             {
                 int id = ((JsonNumber)torrent["id"]).ToInt32();
@@ -64,6 +65,7 @@ namespace TransmissionClientNew.Commmands
                     }
                 }
             }
+            Program.form.ResumeListView();
             Program.form.UpdateStatus("Connected | "+ Toolbox.GetFileSize(totalDownload) + "/s down, " + Toolbox.GetFileSize(totalUpload) + "/s up | "+totalTorrents+" torrents: "+totalDownloading+" downloading, "+totalSeeding+" seeding | "+Toolbox.GetFileSize(totalDownloadedSize)+" / "+Toolbox.GetFileSize(totalSize));
             Queue<int> removeQueue = new Queue<int>();
             foreach (KeyValuePair<int, Torrent> pair in Program.torrentIndex)
