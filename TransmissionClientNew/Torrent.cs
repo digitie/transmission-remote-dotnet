@@ -109,7 +109,7 @@ namespace TransmissionClientNew
             {
                 if (Program.form.NotifyIcon.Visible == true && ((JsonNumber)this.info["status"]).ToInt16() == (short)TorrentStatus.Downloading && ((JsonNumber)this.info["leftUntilDone"]).ToInt64() > 0 && ((JsonNumber)info["leftUntilDone"]).ToInt64() == 0)
                 {
-                    Program.form.NotifyIcon.ShowBalloonTip(4, (string)info["name"], "This torrent has just finished downloading.", ToolTipIcon.Info);
+                    Program.form.NotifyIcon.ShowBalloonTip(4, (string)info["name"], "This torrent has finished downloading.", ToolTipIcon.Info);
                 }
                 this.info = info;
                 item.SubItems[0].Text = (string)info["name"];
