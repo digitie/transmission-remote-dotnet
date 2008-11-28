@@ -336,17 +336,23 @@ namespace TransmissionClientNew
             else if (e.Control && e.KeyCode == Keys.P)
             {
                 LocalSettingsSingleton settings = LocalSettingsSingleton.Instance;
-                if (settings.proxyEnabled != 1)
+                if (settings.proxyEnabled == 0)
                 {
                     settings.proxyEnabled = 1;
                     settings.Commit();
                     toolStripStatusLabel1.Text = "Proxy enabled.";
                 }
-                else
+                else if (settings.proxyEnabled == 1)
                 {
                     settings.proxyEnabled = 2;
                     settings.Commit();
                     toolStripStatusLabel1.Text = "Proxy disabled.";
+                }
+                else
+                {
+                    settings.proxyEnabled = 0;
+                    settings.Commit();
+                    toolStripStatusLabel1.Text = "Proxy dependent on IE settings.";
                 }
             }
             else if (e.Control && e.KeyCode == Keys.C)
