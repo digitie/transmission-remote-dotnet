@@ -21,6 +21,9 @@ namespace TransmissionClientNew
         public Form1()
         {
             InitializeComponent();
+            this.AllowDrop = true;
+            this.DragEnter += new DragEventHandler(Form1_DragEnter);
+            this.DragDrop += new DragEventHandler(Form1_DragDrop);
         }
 
         private void LocalSettingsMenuItem_Click(object sender, EventArgs e)
@@ -34,14 +37,22 @@ namespace TransmissionClientNew
             Connect();
         }
 
+        private delegate void ConnectDelegate();
         public void Connect()
         {
-            ConnectButton.Enabled = false;
-            toolStripStatusLabel1.Text = "Connecting...";
-            BackgroundWorker connectWorker = new BackgroundWorker();
-            connectWorker.DoWork += new DoWorkEventHandler(ConnectWorker_DoWork);
-            connectWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(ConnectWorker_RunWorkerCompleted);
-            connectWorker.RunWorkerAsync();
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new ConnectDelegate(this.Connect));
+            }
+            else
+            {
+                ConnectButton.Enabled = false;
+                toolStripStatusLabel1.Text = "Connecting...";
+                BackgroundWorker connectWorker = new BackgroundWorker();
+                connectWorker.DoWork += new DoWorkEventHandler(ConnectWorker_DoWork);
+                connectWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(ConnectWorker_RunWorkerCompleted);
+                connectWorker.RunWorkerAsync();
+            }
         }
 
         private void RefreshWorker_DoWork(object sender, DoWorkEventArgs e)
@@ -229,6 +240,35 @@ namespace TransmissionClientNew
             if (command.GetType() != typeof(ErrorCommand) && !RefreshWorker.IsBusy)
             {
                 RefreshWorker.RunWorkerAsync(false);
+            }
+        }
+
+        private void Form1_DragEnter(object sender, System.Windows.Forms.DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop, false))
+            {
+                e.Effect = DragDropEffects.All;
+            }
+        }
+
+        private void Form1_DragDrop(object sender, System.Windows.Forms.DragEventArgs e)
+        {
+            if (Program.Connected)
+            {
+                CreateUploadWorker().RunWorkerAsync(e.Data.GetData(DataFormats.FileDrop));
+            }
+            else
+            {
+                ShowMustBeConnectedDialog();
+            }
+        }
+
+        public void ShowMustBeConnectedDialog()
+        {
+            if (MessageBox.Show("You must be connected to add torrents. Would you like to connect now?", "Not connected", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+                == DialogResult.Yes)
+            {
+                Connect();
             }
         }
 

@@ -48,15 +48,22 @@ namespace TransmissionClientNew
         {
             if (form != null)
             {
-                if (connected && e.Args.Length > 1)
-                {
-                    form.CreateUploadWorker().RunWorkerAsync(e.Args);
+                    if (e.Args.Length > 1)
+                    {
+                        if (connected)
+                        {
+                            form.CreateUploadWorker().RunWorkerAsync(e.Args);
+                        }
+                        else
+                        {
+                            form.ShowMustBeConnectedDialog();
+                        }
+                    }
+                    else
+                    {
+                        form.InvokeShow();
+                    }
                 }
-                else
-                {
-                    form.InvokeShow();
-                }
-            }
         }
 
         public static Boolean Connected
