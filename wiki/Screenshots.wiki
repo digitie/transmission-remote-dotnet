@@ -1,3 +1,5 @@
 #summary Screenshots
 
+Here's a screenshot of it connected to my virtual server downloading and seeding some ubuntu images. On my home machine I leave transmission-daemon protected by password authentication and connect directly, but on this host I choose to firewall it also and only access over SSH, hence the connection to localhost.
+
 [http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot1.png]
