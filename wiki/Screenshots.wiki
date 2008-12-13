@@ -5,3 +5,7 @@ Here's a screenshot of it connected to my virtual server downloading some ubuntu
 I've heard of a windows version of transmission-daemon, but it seems very experimental. I've only ever used transmission-daemon on Linux.
 
 [http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot1.png]
+
+The tray icon and completion alert
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/trayicon.png
