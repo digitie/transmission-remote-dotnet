@@ -1,11 +1,11 @@
 #summary Screenshots
 
-Here's a screenshot of it connected to my virtual server downloading some ubuntu images. On my home machine I don't firewall transmission-daemon and connect directly, but on this host I choose to firewall it and port forward over SSH which is why it's connected to localhost.
+3.0 with it's new UI:
 
-I've heard of a windows version of transmission-daemon, but it seems very experimental. I've only ever used transmission-daemon on Linux.
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.0_1.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.0_2.png]
+
+2.x:
 
 [http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot1.png]
-
-The tray icon and completion alert
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/trayicon.png
