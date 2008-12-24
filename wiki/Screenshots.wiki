@@ -1,7 +1,11 @@
 #summary Screenshots
 
-3.0 with its new user interface:
+3.1:
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.0_1.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.1_1.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.0_2.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.1_2.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.1_3.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.1_4.png]
