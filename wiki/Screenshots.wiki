@@ -2,14 +2,14 @@
 
 3.2:
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-1.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-1.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-2.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-2.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-3.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-3.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-4.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-4.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-5.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-5.png]
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/transmission_remote-3.2-6.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-6.png]
