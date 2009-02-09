@@ -23,11 +23,12 @@ Other than these issues, Mono's winforms is kinda impressive in my opinion.
 A GTK# UI would be nice. Trying to port everything would probably be hard. If I had the time, I'd get a skeleton of a UI working, then move the more reusable pieces of code like the CommandFactory, Torrent, ProtocolConstants, and Command classes. The UI glue would probably need to be rewritten almost completely.
 
 To build for Mono:
+
 1) Do a svn checkout.
 
-2) Open the sln file in MonoDevelop (no makefile yet).
+2) Open the sln file in MonoDevelop or Visual Studio (no makefile yet).
 
-3) Remove the two Jayrock references and re-add them (from TransmissionClientNew/bin/Release)
+3) It may be necessary to remove the two Jayrock references and re-add them (from TransmissionClientNew/bin/Release)
 
 4) Define the MONO symbol in project options.
 
