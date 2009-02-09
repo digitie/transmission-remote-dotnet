@@ -1,7 +1,6 @@
 #summary Instructions and issues relating to using transmission-remote-dotnet on Mono
 
-Screenshot of 3.4 running on mono by 'theli.ua':
-http://img5.imageshack.us/my.php?image=tnetcy2.png
+[http://img5.imageshack.us/my.php?image=tnetcy2.png Screenshot of 3.4 running on mono by 'theli.ua']
 
 At present, the standard binaries will not work with Mono. The main reason for this is the interprocess communication mechanism used to pass torrent locations to the first instance, which was introduced in .NET 3.5.
 
