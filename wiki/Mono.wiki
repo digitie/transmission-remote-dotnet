@@ -4,7 +4,7 @@
 
 At present, the standard binaries will not work with Mono. The main reason for this is the interprocess communication mechanism used to pass torrent locations to the first instance, which was introduced in .NET 3.5.
 
-My best idea to workaround this is to use a localhost TCP/UDP socket instead of named pipes. This isn't as elegant of a solution, and it would cause firewall confirmations which some may be suspicious of. It would allow compatability with .NET 2.0, though.
+*News 09/02/09*: Experimental Mono/.NET2 binaries have been made available. These use a localhost TCP/UDP socket instead of named pipes.
 
 Here's a list of other issues:
 
