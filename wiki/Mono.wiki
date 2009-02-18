@@ -1,6 +1,6 @@
 #summary Instructions and issues relating to using transmission-remote-dotnet on Mono
 
-*News 09/02/09*: Experimental Mono/.NET2 binaries have been made available. These use a localhost TCP/UDP socket instead of named pipes.
+*News 18/02/09*: From 3.5, I will be aiming to get the standard binaries to _run_ on Mono. Due to Mono's winforms implementation it's quite experimental/unsupported/sluggish.
 
 [http://eth0.org.uk/img/screenshot-3.4mono-1.small.png]
 
@@ -18,9 +18,7 @@ Here's a list of issues that I've noticed on Mono:
 
 6) Minimising to tray seems to lose all the ToolStrip items on some Mono verisons.
 
-Other than these issues, Mono's winforms is kinda impressive in my opinion.
-
-A GTK# UI would be nice. Trying to port everything would probably be hard. If I had the time, I'd get a skeleton of a UI working, then move the more reusable pieces of code like the CommandFactory, Torrent, ProtocolConstants, and Command classes. The UI glue would probably need to be rewritten almost completely.
+A GTK# UI would be nice. Trying to port everything all at once would probably be quite hard. If I had the time, I'd get a skeleton of a UI working, then move the more reusable pieces of code like the CommandFactory, Torrent, ProtocolConstants, and Command classes. The UI glue would probably need to be rewritten.
 
 To build for Mono:
 
