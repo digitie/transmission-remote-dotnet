@@ -4,8 +4,6 @@
 
 [http://eth0.org.uk/img/screenshot-3.4mono-1.small.png]
 
-At present, the standard binaries will not work with Mono. The main reason for this is the interprocess communication mechanism used to pass torrent locations to the first instance, which was introduced in .NET 3.5.
-
 Here's a list of issues that I've noticed on Mono:
 
 1) On older versions of mono/transmission/both, authentication doesn't work.
