@@ -1,19 +1,21 @@
 #summary Screenshots
 
+3.6:
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-1.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-2.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-3.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-4.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-5.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-6.png]
+
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.6-7.png]
+
 3.4 on Mono:
 
 [http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.4mono-1.png]
-
-3.3:
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-1.png]
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-2.png]
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-3.png]
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-4.png]
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-5.png]
-
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.2-6.png]
