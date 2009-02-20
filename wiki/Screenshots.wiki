@@ -18,4 +18,4 @@
 
 3.4 on Mono:
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.4mono-1.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.4mono-1.small.png]
