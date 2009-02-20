@@ -1,7 +1,0 @@
-#summary Some words about .NET 2
-
-The standard binaries don't work with a .NET version less than 3.5. The reason for this is that .NET 3.5 introduced a nice solution of named pipes for IPC, which is how transmission-remote-dotnet calls an open instance when a .torrent file is opened.
-
-With the standard binaries, if you don't have .NET 3.5 installed you'll get a really unhelpful message that mentions FileNotFoundException and mscorlib.
-
-Upgrading to 3.5 is recommended, but if you don't want to you could try the experimental .NET/Mono build.
