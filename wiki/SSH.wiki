@@ -1,0 +1,27 @@
+#summary Notes on the plink.exe remote command feature.
+
+= Introduction =
+
+This is an experimental 'power user' feature I've added because I certainly find it useful, and I think others will too. It allow you to execute a remote command over SSH, to perform some operation on a torrents contents.
+
+= Setup Notes =
+
+(1) You need plink.exe (command line version of the popular PuTTy SSH client) from [http://www.chiark.greenend.org.uk/~sgtatham/putty/ here], and you need to set its path in the local settings of transmission-remote-dotnet. 'Display remote command button' needs to be checked first.
+
+(2) Then you need to setup a session inside the *with the same name as the hostname transmission-remote-dotnet is connecting to*. It's optional of course, but you'll probably want to [http://www.google.co.uk/search?q=putty+key+authentication setup key authentication] so you don't have to type a user and pass each time.
+
+(3) Setup a command string
+
+= Examples 
+
+Here's a couple of example command strings. '{0}' gets substituted with the torrent destination folder or file.
+
+ls -l {0} && read
+scp -r {0} you@home.machine.com:
+$HOME/unpack.pl {0}
+
+I use it with a small perl script called [http://eth0.org.uk/svn/oddbits/unpack.pl unpack.pl] (use at your own risk) I wrote for extracting lots of RAR archives.
+
+(4) You should now see a terminal button in transmission-remote-dotnet that you can click when one torrent is selected. If the window closes quickly and doesn't do what you expect, it's most likely your command that's wrong.
+
+Let me know if this feature is useful or has any issues. :)
