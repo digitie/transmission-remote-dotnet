@@ -14,13 +14,15 @@ This is an experimental 'power user' feature I've added because I certainly find
 
 = Examples 
 
-Here's a couple of example command strings. '{0}' gets substituted with the torrent destination folder or file.
+Here's a couple of example command strings. '$DIR' gets substituted with the torrent destination folder or file.
 
-ls -l {0} && read
-scp -r {0} you@home.machine.com:
-$HOME/unpack.pl {0}
+ls -l $DATA; read
 
-I use it with a small perl script called [http://eth0.org.uk/svn/oddbits/unpack.pl unpack.pl] (use at your own risk) I wrote for extracting lots of RAR archives.
+scp -r $DATA you@home.machine.com:
+
+$HOME/unpack.pl $DATA
+
+I use it with a small perl script called [http://eth0.org.uk/svn/oddbits/unpack.pl unpack.pl] (use at your own risk) I wrote for extracting multipart RAR archives.
 
 (4) You should now see a terminal button in transmission-remote-dotnet that you can click when one torrent is selected. If the window closes quickly and doesn't do what you expect, it's most likely your command that's wrong.
 
