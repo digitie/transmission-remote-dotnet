@@ -29,10 +29,8 @@ svn checkout http://transmission-remote-dotnet.googlecode.com/svn/trunk/ transmi
 
 It's probably easiest to use Visual Studio 2008, which you can get the express version of for free. You could use an XML editor, but I guess you're more likely to make mistakes.
 
-Important: *Don't translate anything with '>>' or '&gt;&gt;' in front of its name, just the English text in the value column.*
+Important: *Don't translate anything with '>>' or '&gt;&gt;' in front of its name, just the English text in the value column. All (or almost) of the fields you want to edit will and in .Text or .Item<number>*
 
-Attach an archive of the .resx files here and I'll try to commit it ASAP
-
-http://code.google.com/p/transmission-remote-dotnet/issues/detail?id=29
+Attach an archive of the .resx files with the language and the name you want credited to [http://code.google.com/p/transmission-remote-dotnet/issues/detail?id=29 this issue ticket] and I'll try to commit it ASAP.
 
 Happy translating. :)
