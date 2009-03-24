@@ -2,6 +2,8 @@
 
 If you'd like to see transmission-remote-dotnet in your language you can create a translation pack for the upcoming release. You don't really need to know anything about .NET or C# and will of course be credited in the README :)
 
+It might be a good idea to check [http://code.google.com/p/transmission-remote-dotnet/issues/detail?id=29 this issue ticket] first to see if anyone else has already translated your language.
+
 = Details =
 
 You need the following files
