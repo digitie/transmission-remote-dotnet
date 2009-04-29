@@ -8,13 +8,11 @@ Here's a list of issues that I've noticed on Mono:
 
 1) On older versions of mono/transmission/both, authentication doesn't work.
 
-2) Self signed SSL certificates don't work.
+2) Mono's winforms is sometimes sluggish and ugly.
 
-3) Mono's winforms is sometimes sluggish and ugly.
+3) The main window needs a minor resize each time it's opened so that the whole ToolStrip is visible.
 
-5) The main window needs a minor resize each time it's opened so that the whole ToolStrip is visible.
-
-6) Minimising to tray seems to lose all the ToolStrip items on some Mono verisons.
+4) Minimising to tray seems to lose all the ToolStrip items on some Mono verisons.
 
 A GTK# UI would be nice. Trying to port everything all at once would probably be quite hard. If I had the time, I'd get a skeleton of a UI working, then move the more reusable pieces of code like the CommandFactory, Torrent, ProtocolConstants, and Command classes. The UI glue would probably need to be rewritten.
 
