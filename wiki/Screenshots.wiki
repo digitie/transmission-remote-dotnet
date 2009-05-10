@@ -1,8 +1,8 @@
 #summary Screenshots
 
-3.7:
+3.8:
 
-[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.7-1.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.8-1.png]
 
 3.6:
 
