@@ -1,6 +1,8 @@
 #summary Instructions and issues relating to using transmission-remote-dotnet on Mono
 
-The 3.8 binaries will not run on mono for now. I'll probably release a mono build at the end of the month when I've got time. Using the steps below, it should still build for mono.
+Here's a link to mono binaries.
+
+http://eth0.org.uk/~alan/transmission-remote-dotnet-latest-mono.zip
 
 [http://eth0.org.uk/img/screenshot-3.4mono-1.small.png]
 
@@ -12,7 +14,7 @@ Here's a list of issues that I've noticed on Mono:
 
 3) Minimising to tray seems to lose all the ToolStrip items on some Mono verisons.
 
-A GTK# UI would be nice. Trying to port everything all at once would probably be quite hard. If I had the time, I'd get a skeleton of a UI working, then move the more reusable pieces of code like the CommandFactory, Torrent, ProtocolConstants, and Command classes. The UI glue would probably need to be rewritten.
+4) Selecting multiple file items works, but right clicking causes only one to be selected.
 
 To build for Mono:
 
