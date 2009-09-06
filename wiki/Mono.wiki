@@ -1,10 +1,6 @@
 #summary Instructions and issues relating to using transmission-remote-dotnet on Mono
 
-Here's a link to mono binaries.
-
-http://eth0.org.uk/~alan/transmission-remote-dotnet-latest-mono.zip
-
-[http://eth0.org.uk/img/screenshot-3.4mono-1.small.png]
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/screenshot-3.4mono-1.small.png]
 
 Here's a list of issues that I've noticed on Mono:
 
