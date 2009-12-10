@@ -22,7 +22,7 @@ scp -r $DATA you@home.machine.com:
 
 $HOME/unpack.pl $DATA
 
-I use it with a small perl script called [http://eth0.org.uk/svn/oddbits/unpack.pl unpack.pl] (use at your own risk) which I wrote for extracting multipart RAR archives.
+I use it with a small perl script called [http://eth0.org.uk/~alan/unpack.pl unpack.pl] (use at your own risk) which I wrote for extracting multipart RAR archives.
 
 (4) You should now see a terminal button in transmission-remote-dotnet that you can click when one torrent is selected. If the window closes quickly and doesn't do what you expect, it's most likely your command that's wrong.
 
