@@ -11,3 +11,8 @@ Run the following command:
 {{{
 %Windir%\Microsoft.NET\Framework\v3.5\MSBuild.exe /t:Rebuild /p:Configuration=Release
 }}}
+
+If you want a portable build (use the settings.json file as LocalSettingsStore):
+{{{
+%Windir%\Microsoft.NET\Framework\v3.5\MSBuild.exe /t:Rebuild /p:Configuration=Release /p:DefineConstants=PORTABLE
+}}}
