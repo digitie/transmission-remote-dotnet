@@ -1,0 +1,10 @@
+#summary Skins support
+
+= Introduction =
+
+transmission-remote-dotnet has skin support: you can change the toolbar and menubar icons, the status icons and the tabs icons in infopanel.
+
+
+= Details =
+
+Because this feature is still under development, the details will be written later.
