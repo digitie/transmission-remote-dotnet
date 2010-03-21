@@ -30,3 +30,13 @@ Torrent state imageslist is contains 8 image pieces. Size must be 16x16 pixel.
 || *Image* || *State name* || *Image* || *State name* || *Image* || *State name* || *Image* || *State name* ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_00.png] || All torrents || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_01.png] || Downloading || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_02.png] || Paused || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_03.png] || Complete ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_04.png] || Seeding || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_05.png] || Verifing || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_06.png] || Broken (Has error) || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_07.png] || Incomplete ||
+
+== Infopanel tabs images ==
+Infopanel tabs imageslist is contains 5 image pieces. Size must be 16x16 pixel.
+
+=== The default imageslist ===
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel.png]
+
+|| *Image* || *Tab name* || *Image* || *Tab name* || *Image* || *Tab name* ||
+|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel_00.png] || General info tab || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel_01.png] || Trackers tab || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel_02.png] || Files tab ||
+|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel_03.png] || Peers tab || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/infopanelimages/infopanel_04.png] || Speed tab ||
