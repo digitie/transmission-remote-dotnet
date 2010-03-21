@@ -20,3 +20,13 @@ Toolbar imageslist is contains 22 image pieces. Height must be between 16 and 32
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_12.png] || Delete selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_13.png] || Reannounce selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_14.png] || Open network share || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_15.png] || Run command on server ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_16.png] || Enable alt speed || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_17.png] || Disable alt speed enable || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_18.png] || Local settings configure || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_19.png] || Remote settings configure ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_20.png] || Show stats || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_21.png] || Find torrent ||
+
+== Torrent state images ==
+Torrent state imageslist is contains 8 image pieces. Size must be 16x16 pixel.
+
+=== The default imageslist ===
+[http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state.png]
+
+|| *Image* || *State name* || *Image* || *State name* || *Image* || *State name* || *Image* || *State name* ||
+|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_00.png] || All torrents || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_01.png] || Downloading || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_02.png] || Paused || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_03.png] || Complete ||
+|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_04.png] || Seeding || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_05.png] || Verifing || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_06.png] || Broken (Has error) || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/stateimages/state_07.png] || Incomplete ||
