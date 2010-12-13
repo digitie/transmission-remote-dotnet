@@ -8,7 +8,7 @@ transmission-remote-dotnet has skin support: you can change the toolbar and menu
 = Details =
 
 == Toolbar images ==
-Toolbar imageslist is contains 22 image pieces. Height must be between 16 and 32.
+Toolbar imageslist is contains 23 image pieces. Height must be between 16 and 32.
 
 === The default imageslist ===
 [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar.png]
@@ -19,7 +19,8 @@ Toolbar imageslist is contains 22 image pieces. Height must be between 16 and 32
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_08.png] || Stop selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_09.png] || Recheck selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_10.png] || Torrent properties || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_11.png] || Remove selected torrent ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_12.png] || Delete selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_13.png] || Reannounce selected torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_14.png] || Open network share || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_15.png] || Run command on server ||
 || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_16.png] || Enable alt speed || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_17.png] || Disable alt speed enable || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_18.png] || Local settings configure || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_19.png] || Remote settings configure ||
-|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_20.png] || Show stats || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_21.png] || Find torrent ||
+|| [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_20.png] || Show stats || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_21.png] || Find torrent || [http://transmission-remote-dotnet.googlecode.com/svn/wiki/toolbarimages/toolbar_22.png] || RSS downloader ||
+
 
 == Torrent state images ==
 Torrent state imageslist is contains 8 image pieces. Size must be 16x16 pixel.
