@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="openNetworkShareDirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Folder on Network Share</value>
+  </data>
+  <data name="torrentNameCol.Text" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="torrentNoCol.Text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="torrentSizeCol.Text" xml:space="preserve">
+    <value>Grootte</value>
+  </data>
+  <data name="torrentDoneCol.Text" xml:space="preserve">
+    <value>Afgerond</value>
+  </data>
+  <data name="torrentStatusCol.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="torrentSeedsCol.Text" xml:space="preserve">
+    <value>Seeds</value>
+  </data>
+  <data name="torrentLeechersCol.Text" xml:space="preserve">
+    <value>Leechers</value>
+  </data>
+  <data name="torrentDownSpeedCol.Text" xml:space="preserve">
+    <value>Download Snelheid</value>
+  </data>
+  <data name="torrentUpSpeedCol.Text" xml:space="preserve">
+    <value>Upload Snelheid</value>
+  </data>
+  <data name="torrentEtaCol.Text" xml:space="preserve">
+    <value>Resterend</value>
+  </data>
+  <data name="torrentUploadedCol.Text" xml:space="preserve">
+    <value>Ge-upload</value>
+  </data>
+  <data name="torrentRatioCol.Text" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="torrentAddedAt.Text" xml:space="preserve">
+    <value>Toegevoegd op</value>
+  </data>
+  <data name="torrentCompletedAtCol.Text" xml:space="preserve">
+    <value>Afgerond op</value>
+  </data>
+  <data name="torrentTrackerCol.Text" xml:space="preserve">
+    <value>Tracker</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Total size:</value>
+  </data>
+  <data name="trackersTierCol.Text" xml:space="preserve">
+    <value>Laag</value>
+  </data>
+  <data name="trackersAnnounceUrlCol.Text" xml:space="preserve">
+    <value>Aankondigings URL</value>
+  </data>
+  <data name="trackersStatusCol.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="trackersUpdateInCol.Text" xml:space="preserve">
+    <value>Bijgewerkt op</value>
+  </data>
+  <data name="trackersSeedsCol.Text" xml:space="preserve">
+    <value>Seeds</value>
+  </data>
+  <data name="trackersLeechersCol.Text" xml:space="preserve">
+    <value>Leechers</value>
+  </data>
+  <data name="trackersDownloadedCol.Text" xml:space="preserve">
+    <value>Gedownload</value>
+  </data>
+  <data name="filesPathCol.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="filesTypeCol.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="filesSizeCol.Text" xml:space="preserve">
+    <value>Grootte</value>
+  </data>
+  <data name="filesDoneCol.Text" xml:space="preserve">
+    <value>Afgerond</value>
+  </data>
+  <data name="filesPercentCol.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="filesSkipCol.Text" xml:space="preserve">
+    <value>Overslaan</value>
+  </data>
+  <data name="filesPriorityCol.Text" xml:space="preserve">
+    <value>Prioriteit</value>
+  </data>
+  <data name="peersIpAddressCol.Text" xml:space="preserve">
+    <value>IP Adres</value>
+  </data>
+  <data name="peersHostnameCol.Text" xml:space="preserve">
+    <value>Hostnaam</value>
+  </data>
+  <data name="peersCountryCol.Text" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="peersFlagsCol.Text" xml:space="preserve">
+    <value>Vlaggen</value>
+  </data>
+  <data name="peersClientCol.Text" xml:space="preserve">
+    <value>Klant</value>
+  </data>
+  <data name="peersProgressCol.Text" xml:space="preserve">
+    <value>Voortgang</value>
+  </data>
+  <data name="peersDownSpeedCol.Text" xml:space="preserve">
+    <value>Download Snelheid</value>
+  </data>
+  <data name="peersUpSpeedCol.Text" xml:space="preserve">
+    <value>Upload Snelheid</value>
+  </data>
+  <data name="FilterTorrentLabel.Text" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="importLocalSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import local settings...</value>
+  </data>
+  <data name="exportLocalSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export local settings...</value>
+  </data>
+  <data name="showCategoriesPanelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Categorie filter paneel</value>
+  </data>
+  <data name="RssButton.Text" xml:space="preserve">
+    <value>Rss Downloader</value>
+  </data>
+  <data name="downloadProgressLabel.Text" xml:space="preserve">
+    <value>Onderdelen: </value>
+  </data>
+  <data name="percentageLabel.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="locationLabelLabel.Text" xml:space="preserve">
+    <value>Locatie:</value>
+  </data>
+  <data name="piecesInfoLabelLabel.Text" xml:space="preserve">
+    <value>Onderdelen:</value>
+  </data>
+  <data name="hashLabelLabel.Text" xml:space="preserve">
+    <value>Hash:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Aangemaakt door:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Aangemaakt op:</value>
+  </data>
+  <data name="labelForErrorLabel.Text" xml:space="preserve">
+    <value>Fout:</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Opmerking:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Ratio:</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Leechers:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Seeds:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Upload limiet:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Upload snelheid:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Geupload:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Resterend:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Download limiet:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Download snelheid:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Gedownload:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Begonnen op:</value>
+  </data>
+  <data name="timeElapsedLabelLabel.Text" xml:space="preserve">
+    <value>Verstreken tijd:</value>
+  </data>
+  <data name="generalTabPage.Text" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="trackersTabPage.Text" xml:space="preserve">
+    <value>Trackers</value>
+  </data>
+  <data name="filesTabPage.Text" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="peersTabPage.Text" xml:space="preserve">
+    <value>Peers</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Oplossing:</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Omlaag</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Omhoog</value>
+  </data>
+  <data name="speedGraph.Text" xml:space="preserve">
+    <value>c2DPushGraph1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Totale bandbreedte gebruik</value>
+  </data>
+  <data name="speedTabPage.Text" xml:space="preserve">
+    <value>Snelheid</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="toolStripContainer1.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="connectButton.Text" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="disconnectButton.Text" xml:space="preserve">
+    <value>Verbinding verbreken</value>
+  </data>
+  <data name="addTorrentButton.Text" xml:space="preserve">
+    <value>Torrent toevoegen</value>
+  </data>
+  <data name="addWebTorrentButton.Text" xml:space="preserve">
+    <value>Torrent toevoegen via een URL</value>
+  </data>
+  <data name="startTorrentButton.Text" xml:space="preserve">
+    <value>Start torrent(s)</value>
+  </data>
+  <data name="startTorrentButton.ToolTipText" xml:space="preserve">
+    <value>Start torrent(s)</value>
+  </data>
+  <data name="pauseTorrentButton.Text" xml:space="preserve">
+    <value>Pauzeer torrent(s)</value>
+  </data>
+  <data name="recheckTorrentButton.Text" xml:space="preserve">
+    <value>Hercontroleer torrent(s)</value>
+  </data>
+  <data name="recheckTorrentButton.ToolTipText" xml:space="preserve">
+    <value>Hercontroleer torrent(s)</value>
+  </data>
+  <data name="configureTorrentButton.Text" xml:space="preserve">
+    <value>Set torrent(s) eigenschappen</value>
+  </data>
+  <data name="configureTorrentButton.ToolTipText" xml:space="preserve">
+    <value>Set torrent(s) eigenschappen</value>
+  </data>
+  <data name="removeTorrentButton.Text" xml:space="preserve">
+    <value>Verwijder torrent(s) uit de lijst</value>
+  </data>
+  <data name="removeAndDeleteButton.Text" xml:space="preserve">
+    <value>Verwijder torrent(s) uit lijst en van de harde schijf</value>
+  </data>
+  <data name="allToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="recentlyActiveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pas aktief</value>
+  </data>
+  <data name="reannounceButton.Text" xml:space="preserve">
+    <value>Heraankondigen</value>
+  </data>
+  <data name="openNetworkShareButton.Text" xml:space="preserve">
+    <value>Open op network map</value>
+  </data>
+  <data name="AltSpeedButton.Text" xml:space="preserve">
+    <value>Alt Snelheid</value>
+  </data>
+  <data name="localConfigureButton.Text" xml:space="preserve">
+    <value>Lokale instellingen</value>
+  </data>
+  <data name="remoteConfigureButton.Text" xml:space="preserve">
+    <value>Server instellingen</value>
+  </data>
+  <data name="sessionStatsButton.Text" xml:space="preserve">
+    <value>Laat statistieken zien</value>
+  </data>
+  <data name="connectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="disconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verbinding verbreken</value>
+  </data>
+  <data name="addTorrentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Snel toevoegen</value>
+  </data>
+  <data name="addTorrentWithOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Torrent toevoegen met opties</value>
+  </data>
+  <data name="addTorrentFromUrlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Voeg een torrent toe via een URL</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="localSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lokale instellingen</value>
+  </data>
+  <data name="remoteSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Server instellingen</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="findToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zoeken...</value>
+  </data>
+  <data name="startToolStripMenuItem.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="pauseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pauze</value>
+  </data>
+  <data name="recheckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hercontroleren</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Onderdelen</value>
+  </data>
+  <data name="removeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verwijder uit de lijst</value>
+  </data>
+  <data name="removeDeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verwijder uit lijst en van de harde schijf</value>
+  </data>
+  <data name="reannounceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Heraankondigen</value>
+  </data>
+  <data name="moveTorrentDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verplaats torrent gegevens</value>
+  </data>
+  <data name="openNetworkShareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open op network map</value>
+  </data>
+  <data name="cSVInfoToClipboardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kopieër CSV informatie naar het klembord</value>
+  </data>
+  <data name="startAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Begonnen op</value>
+  </data>
+  <data name="stopAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pauseer all</value>
+  </data>
+  <data name="torrentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Torrent</value>
+  </data>
+  <data name="showDetailsPanelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Details paneel</value>
+  </data>
+  <data name="statsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Laat statistieken zien</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bekijken</value>
+  </data>
+  <data name="showErrorLogToolStripMenuItem.Text" xml:space="preserve">
+    <value>Laat foutenlogboek zien</value>
+  </data>
+  <data name="projectSiteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Projekt lokatie</value>
+  </data>
+  <data name="checkForNewVersionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Controleer op nieuwe versie</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Over Transmission Remote</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hulp</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="notifyIcon.Text" xml:space="preserve">
+    <value>Transmission Remote</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Transmission Remote</value>
+  </data>
+</root>
